@@ -1,0 +1,36 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+@media (min-width: 768px) {
+  .div-hero-text {
+    /*align-items: center;*/
+    /*text-align: center;*/
+    /*font-size: 14px;*/
+  }
+}
+
+.coll-col {
+  background-color: #003066;
+  color: #fff;
+}
+
+.div-holder {
+  width: 374px;
+  height: 263px;
+  left: 135px;
+  top: 3656px;
+  box-shadow: 0px 4px 60px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  background: #FFFFFF;
+  /*top: 10%;*/
+  /*margin-left: 2%;*/
+}
+
+icoo {
+  width: 62.01px;
+  height: 55px;
+  left: 159px;
+  top: 3697px;
+}
+

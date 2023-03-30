@@ -1,0 +1,244 @@
+.vplayer {
+  margin-bottom: 30px;
+  position: relative;
+  padding-top: 56.25%;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #000;
+}
+
+.vplayer .plybtn {
+  box-shadow: 0 0 30px rgba( 0, 0, 0, 0.6);
+  width: 90px;
+  height: 60px;
+  background-color: #333;
+  z-index: 1;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+
+.vplayer .plybtn:before {
+  content: "";
+  border-style: solid;
+  border-width: 15px 0 15px 26.0px;
+  border-color: transparent transparent transparent #fff;
+}
+
+.vplayer img, .vplayer .plybtn {
+  cursor: pointer;
+}
+
+.vplayer img, .vplayer iframe, .vplayer .plybtn, .vplayer .plybtn:before {
+  position: absolute;
+}
+
+.vplayer .plybtn, .vplayer .plybtn:before {
+  top: 50%;
+  left: 50%;
+  transform: translate3d( -50%, -50%, 0);
+}
+
+.little-box {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 36px 24px;
+  gap: 24px;
+  position: absolute;
+  width: 270px;
+  height: 240px;
+  left: 135px;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E9;
+  border-radius: 8px;
+}
+
+.little-box-top-right {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 36px 24px;
+  gap: 24px;
+  position: absolute;
+  width: 270px;
+  height: 240px;
+  left: 435px;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E9;
+  border-radius: 8px;
+}
+
+.inbox-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  width: 56px;
+  height: 56px;
+  background: #FDE7EE;
+  border-radius: 48px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.small-icon {
+  position: absolute;
+  left: 22.92%;
+  right: 22.92%;
+  top: 12.5%;
+  bottom: 12.5%;
+  background: #F01159;
+}
+
+.box-title {
+  width: 222px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262239;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.box-paragraph {
+  width: 222px;
+  height: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #565365;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.little-box-bottom-left {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 36px 24px;
+  gap: 24px;
+  position: absolute;
+  width: 270px;
+  height: 240px;
+  left: 135px;
+  top: 3249px;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E9;
+  border-radius: 8px;
+}
+
+.little-box-bottom-right {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 36px 24px;
+  gap: 24px;
+  position: absolute;
+  width: 270px;
+  height: 240px;
+  left: 435px;
+  top: 3269px;
+  background: #FFFFFF;
+  border: 1px solid #E6E6E9;
+  border-radius: 8px;
+}
+
+.little-boxes-container {
+  /*position: absolute;*/
+  /*width: 570px;*/
+  /*height: 556px;*/
+  left: 135px;
+  /*top: 2945px;*/
+}
+
+.right-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 36px;
+  position: absolute;
+  width: 512px;
+  height: 453px;
+  left: 793px;
+  top: 2945px;
+}
+
+.right-heading {
+  width: 511px;
+  height: 264px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 88px;
+  text-transform: capitalize;
+  color: #262239;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.right-para {
+  width: 470px;
+  height: 78px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #565365;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#hero {
+}
+
+.head-title {
+  position: absolute;
+  /*width: 327px;*/
+  /*height: 88px;*/
+  /*left: 135px;*/
+  top: 307px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 88px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.title-paragraph {
+  position: absolute;
+  /*width: 557px;*/
+  /*height: 170px;*/
+  /*left: 135px;*/
+  top: 421px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+
+.tabs {
+  background-color: #fff;
+  width: 380px;
+}
+
